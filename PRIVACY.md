@@ -2,7 +2,7 @@
 
 [English below](#privacy-policy--adventurers-pouch-and-wowpocket)
 
-生效日期：2026-10-20
+生效日期：2026-10-22
 
 冒险行囊（Adventurer’s Pouch）是个人开发者 BaronCyrus 做的《魔兽世界：无限》非官方手机伴侣 App。它要配合电脑上的 WowPocket 和 WowPocket 装进游戏的插件一起用。这份政策写的是这三样东西会碰到哪些数据、数据放在哪里、怎么删掉。
 
@@ -22,11 +22,13 @@
 - 电脑上：谷歌给的授权凭据和你登录的账号邮箱，存在你电脑上 WowPocket 的数据文件夹里，只有你本人的系统账号能读。存邮箱是为了在窗口里告诉你登录的是哪个账号。
 - 手机上：授权由手机上的 Google Play 服务管理，App 自己不保存。
 
-**坚果云的账号和应用密码**（用坚果云时）：应用密码是你在坚果云的“第三方应用管理”里自己生成的，不是你的登录密码。按坚果云的说法，应用密码能碰到你整个坚果云；WowPocket 只读写其中的 WowPocket 文件夹，手机 App 只读它，别的文件都不碰。
+**坚果云的账号和应用密码**（用坚果云时）：应用密码是你在坚果云的“第三方应用管理”里自己生成的，不是你的登录密码。按坚果云的说法，应用密码能碰到你整个坚果云；WowPocket 只读写其中的 WowPocket 文件夹，手机 App 读它，只往里写幻化方案那一个文件，别的文件都不碰。
 - 电脑上：坚果云账号和应用密码存在 WowPocket 数据文件夹里单独的一个文件里，只有你本人的系统账号能读。
 - 手机上：存在 App 自己的存储里，别的 App 读不到；设置里只显示账号，不再显示应用密码。
 
 **设置和天赋方案**：App 的语言、你在天赋模拟器里保存的方案，只存在手机上。
+
+**幻化方案**：你在 App 幻化页保存的方案（哪个角色，每个部位换成哪种外观的编号，什么时候存的）存在手机上，同时写进你选的地方：Google Drive 里上面说的那个隐藏文件夹，或坚果云的 WowPocket 文件夹，文件叫 `wp-plans.json`。电脑上的 WowPocket 把它取下来，写进游戏里插件的文件夹；你在游戏的幻化师那里点插件的按钮，它才填进游戏的幻化窗口。
 
 **打赏**：打不打赏，App 的功能都一样。
 - 国内版：用微信或支付宝扫作者的码，付款在微信或支付宝里完成，冒险行囊不经手。微信、支付宝会按它们自己的规矩告诉作者谁付了多少（比如微信昵称）。
@@ -41,7 +43,7 @@
 
 ## 从 Google API 拿到的数据
 
-冒险行囊和 WowPocket 使用从 Google API 收到的信息、或把它转给其他应用时，遵守 [Google API 服务用户数据政策](https://developers.google.com/terms/api-services-user-data-policy)，包括其中的“有限使用”要求。我们只拿这些信息在你的设备上显示你自己的角色，不另作他用。
+冒险行囊和 WowPocket 使用从 Google API 收到的信息、或把它转给其他应用时，遵守 [Google API 服务用户数据政策](https://developers.google.com/terms/api-services-user-data-policy)，包括其中的“有限使用”要求。我们只拿这些信息在你的设备上显示你自己的角色、把你在手机上存的幻化方案带到你电脑上的游戏里，不另作他用。
 
 ## 第三方
 
@@ -49,16 +51,16 @@
 - **坚果云**：用坚果云时，你的坚果云存你的角色数据，适用坚果云的隐私政策。
 - **微信、支付宝**：国内版和海外版扫码的打赏在它们那里完成，适用它们各自的隐私政策。
 - **Ko-fi**：海外版在 Ko-fi 上的打赏在那里完成，适用 Ko-fi 的隐私政策。
-- **GitHub**：在 App 里点“在手机上打开下载页”或“隐私政策”，会用浏览器打开 GitHub 上的页面，那里适用 GitHub 的隐私声明。
+- **GitHub**：在 App 里点“在手机上打开下载页”或“隐私政策”，会用浏览器打开 GitHub 上的页面，那里适用 GitHub 的隐私声明。在 WowPocket 窗口里点“检查更新”，WowPocket 会连 GitHub（api.github.com 和它放下载文件的服务器）查最新的版本号，你点了更新才下载新版本的安装包；GitHub 会看到你的 IP 地址、WowPocket 的版本号和下载的是哪个系统的安装包，适用 GitHub 的隐私声明。不点就不连。
 - **Discord**：在 App 设置里点“在 Discord 上反馈问题和建议”，或在 WowPocket 窗口里点“在 Discord 上反馈”，会用浏览器打开冒险行囊的 Discord 服务器（国内版没有）。冒险行囊和 WowPocket 自己不连 Discord。你在服务器里发的内容和你的 Discord 用户名由 Discord 保管，服务器里的人都看得到，适用 Discord 的隐私政策；我们只拿它来回答问题、改进 App。
 - **QQ**：国内版的设置里和 WowPocket 窗口里写着冒险行囊的 QQ 群号，点了只是把群号复制到剪贴板，冒险行囊和 WowPocket 自己不连 QQ。你在群里发的内容和你的 QQ 资料由腾讯保管，群里的人都看得到，适用 QQ 的隐私政策；我们只拿它来回答问题、改进 App。
 
 ## 保留和删除
 
 - **手机**：卸载 App，手机上的数据就全部删掉了。国内版还可以在设置的“坚果云”里点“不用坚果云了”，只删掉手机上的应用密码。
-- **Google Drive**：打开网页版 Google Drive → 设置 → 管理应用 → 找到 WowPocket → 选项 → 删除隐藏的应用数据。
+- **Google Drive**：打开网页版 Google Drive → 设置 → 管理应用 → 找到 WowPocket → 选项 → 删除隐藏的应用数据（角色数据和幻化方案都在里面）。
 - **撤销谷歌授权**：在 [Google 账号的第三方关联](https://myaccount.google.com/connections) 里移除 WowPocket。撤销以后电脑和手机都取不到云盘里的数据了。
-- **坚果云**：删掉坚果云里的 WowPocket 文件夹。要让应用密码失效，在坚果云的“第三方应用管理”里把它删掉。
+- **坚果云**：删掉坚果云里的 WowPocket 文件夹；只想删幻化方案的话，删其中的 `wp-plans.json`。要让应用密码失效，在坚果云的“第三方应用管理”里把它删掉。
 - **电脑**：在 WowPocket 窗口里点“退出登录”或“断开坚果云”，保存的授权凭据或应用密码就删掉了。要删得一点不剩，删掉 WowPocket 的数据文件夹：Mac 上是 `~/Library/Application Support/WowPocket`，Windows 上是 `%APPDATA%\WowPocket`。
 - **插件**：删掉游戏目录 `Interface/AddOns` 下的 `WowPocket` 文件夹。插件的存档是游戏 `WTF/Account/<你的账号>/SavedVariables` 下的 `WowPocket.lua`。
 
@@ -86,7 +88,7 @@ codiee.zane@gmail.com
 
 # Privacy policy · Adventurer’s Pouch and WowPocket
 
-Effective: 20 October 2026
+Effective: 22 October 2026
 
 Adventurer’s Pouch is an unofficial companion app for World of Warcraft: Infinite, made by an individual developer, BaronCyrus. It works with WowPocket on your computer and the addon WowPocket installs in the game. This policy says what data these three touch, where that data is kept and how to delete it.
 
@@ -106,11 +108,13 @@ The phone app then downloads the file to your phone to show you your characters.
 - On your computer: Google’s sign-in token and your account’s email address are kept in WowPocket’s data folder on your computer, readable only by your own user account. The email address is kept so the window can show which account you are signed in with.
 - On your phone: the sign-in is managed by Google Play services on the phone, and the app keeps none of it.
 
-**Your Jianguoyun account and app password** (with Jianguoyun): the app password is one you make yourself under Third-party App Management in Jianguoyun; it is not your login password. As Jianguoyun puts it, an app password reaches your whole Jianguoyun; WowPocket reads and writes only its WowPocket folder there, and the phone app only reads it.
+**Your Jianguoyun account and app password** (with Jianguoyun): the app password is one you make yourself under Third-party App Management in Jianguoyun; it is not your login password. As Jianguoyun puts it, an app password reaches your whole Jianguoyun; WowPocket reads and writes only its WowPocket folder there, and the phone app reads it and writes only the one file of transmog outfits into it.
 - On your computer: the account and app password are kept in a file of their own in WowPocket’s data folder, readable only by your own user account.
 - On your phone: they are kept in the app’s own storage, which other apps cannot read; the settings show the account but never the app password again.
 
 **Settings and talent plans**: the app’s language and the plans you save in the talent simulator are kept only on your phone.
+
+**Transmog outfits**: the outfits you save on the app’s Transmog page (which character, the appearance number for each slot, when it was saved) are kept on your phone and written to the place you picked as well: the hidden folder of your Google Drive described above, or the WowPocket folder of your Jianguoyun, in a file named `wp-plans.json`. WowPocket on your computer fetches it and writes it into the addon’s folder in the game; only when you press the addon’s button at a transmogrifier does it fill the outfit into the game’s transmog window.
 
 **Tips**: the app works the same whether or not you tip.
 - Version for China: you scan the author’s code with WeChat or Alipay, and the payment is made in WeChat or Alipay, never through the app. WeChat and Alipay tell the author who paid how much (a WeChat nickname, say) under their own rules.
@@ -125,7 +129,7 @@ The phone app then downloads the file to your phone to show you your characters.
 
 ## Data from Google APIs
 
-Adventurer’s Pouch’s and WowPocket’s use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. That information is used only to show you your own characters on your own devices.
+Adventurer’s Pouch’s and WowPocket’s use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. That information is used only to show you your own characters on your own devices and to carry the transmog outfits you save on your phone to the game on your computer.
 
 ## Third parties
 
@@ -133,16 +137,16 @@ Adventurer’s Pouch’s and WowPocket’s use and transfer to any other app of 
 - **Jianguoyun**: with Jianguoyun, your Jianguoyun keeps your character data, and Jianguoyun’s privacy policy applies.
 - **WeChat, Alipay**: tips scanned in the version for China or the international version are made in them, and their own privacy policies apply.
 - **Ko-fi**: tips on Ko-fi from the international version are made there, and Ko-fi’s privacy policy applies.
-- **GitHub**: “Open the download page” or “Privacy policy” in the app opens a page on GitHub in your browser, where GitHub’s privacy statement applies.
+- **GitHub**: “Open the download page” or “Privacy policy” in the app opens a page on GitHub in your browser, where GitHub’s privacy statement applies. “Check for updates” in the WowPocket window has WowPocket ask GitHub (api.github.com and the servers its downloads come from) for the latest version, and download the new version’s package only when you choose to update; GitHub sees your IP address, the WowPocket version and which system’s package is downloaded, and GitHub’s privacy statement applies. Nothing is asked unless you press it.
 - **Discord**: “Send feedback on Discord” in the app’s settings, or “Feedback on Discord” in the WowPocket window, opens the Adventurer’s Pouch Discord server in your browser (not in the version for China). Adventurer’s Pouch and WowPocket do not connect to Discord themselves. What you post there and your Discord username are kept by Discord and seen by the people on the server, and Discord’s privacy policy applies; we use them only to answer you and improve the app.
 - **QQ**: the settings of the version for China and the WowPocket window show the Adventurer’s Pouch QQ group’s number; tapping it only copies the number to your clipboard, and Adventurer’s Pouch and WowPocket do not connect to QQ themselves. What you post in the group and your QQ profile are kept by Tencent and seen by the people in the group, and QQ’s privacy policy applies; we use them only to answer you and improve the app.
 
 ## Keeping and deleting
 
 - **Phone**: uninstalling the app deletes everything it kept on your phone. In the version for China, “Stop using Jianguoyun” under Jianguoyun in the settings deletes just the app password on the phone.
-- **Google Drive**: in Google Drive on the web, open Settings → Manage apps → WowPocket → Options → Delete hidden app data.
+- **Google Drive**: in Google Drive on the web, open Settings → Manage apps → WowPocket → Options → Delete hidden app data (your character data and your transmog outfits are both in it).
 - **Withdrawing Google access**: remove WowPocket under [your Google Account’s third-party connections](https://myaccount.google.com/connections). After that, neither your computer nor your phone can reach the data in your Drive.
-- **Jianguoyun**: delete the WowPocket folder in your Jianguoyun. To make an app password stop working, delete it under Third-party App Management in Jianguoyun.
+- **Jianguoyun**: delete the WowPocket folder in your Jianguoyun; to delete just the transmog outfits, delete `wp-plans.json` in it. To make an app password stop working, delete it under Third-party App Management in Jianguoyun.
 - **Computer**: Sign out or Disconnect Jianguoyun in the WowPocket window deletes the kept sign-in token or app password. To delete everything, delete WowPocket’s data folder: `~/Library/Application Support/WowPocket` on a Mac, `%APPDATA%\WowPocket` on Windows.
 - **Addon**: delete the `WowPocket` folder under `Interface/AddOns` in your game folder. Its saved file is `WowPocket.lua` under `WTF/Account/<your account>/SavedVariables` in the game folder.
 

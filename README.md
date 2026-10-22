@@ -30,9 +30,13 @@
 3. 进游戏玩一会儿再退出，WowPocket 会自己上传。
 4. 在手机上打开冒险行囊，它会自己取；也可以在“切换”里点同步。
 
+## 更新
+
+0.14.0 起，在 WowPocket 窗口最下面的“关于”里点“检查更新”；有新版本就点“更新到 … 并重新打开”，WowPocket 会自己下载、核对、换上，再重新打开。Mac 上要先把 WowPocket 拖进“应用程序”、从那里打开：直接在“下载”里打开的那份，macOS 把它放在一个只读的临时位置运行，换不了。点了才会连 GitHub，GitHub 会看到你的 IP 地址和 WowPocket 的版本号。0.13.2 和更早的版本没有这个按钮，要像第一次那样从这里手动下载。
+
 ## 隐私
 
-角色数据只存在你自己的 Google Drive 里只有这个应用能看的文件夹，或者你坚果云里的 WowPocket 文件夹，没有我们的服务器。详见[隐私政策](PRIVACY.md)。插件只读游戏给插件的信息，不改游戏、不发消息、不替你操作。
+角色数据只存在你自己的 Google Drive 里只有这个应用能看的文件夹，或者你坚果云里的 WowPocket 文件夹，没有我们的服务器。详见[隐私政策](PRIVACY.md)。插件读游戏给插件的信息，不发消息、不替你操作；只有你在幻化师那里点它的“冒险行囊”按钮时，它才把手机上存的幻化方案写成一个叫“冒险行囊”的自定义套装、填进幻化窗口，生效（花金币）还是点游戏自己的保存按钮。
 
 ---
 
@@ -66,6 +70,10 @@ Each package carries the licences and notices of the open-source software WowPoc
 3. Play a while and quit the game: WowPocket uploads by itself.
 4. Open Adventurer’s Pouch on your phone: it fetches by itself, or sync under Switch.
 
+## Updates
+
+From 0.14.0, click Check for updates under About at the bottom of the WowPocket window; when there is a new version, click Update to … and reopen, and WowPocket downloads it, checks it, puts it in place and opens again. On a Mac, drag WowPocket into Applications first and open it from there: opened straight from Downloads, macOS runs it from a read-only temporary place where it cannot be replaced. GitHub is asked only when you click, and sees your IP address and the WowPocket version. Version 0.13.2 and earlier have no such button: download the new one here by hand, as the first time.
+
 ## Privacy
 
-Your characters go only to a folder of your own Google Drive that only this app can see, or to the WowPocket folder of your Jianguoyun; there is no server of ours. See the [privacy policy](PRIVACY.md). The addon only reads what the game gives addons: it changes nothing in the game, sends no messages and acts for you in nothing.
+Your characters go only to a folder of your own Google Drive that only this app can see, or to the WowPocket folder of your Jianguoyun; there is no server of ours. See the [privacy policy](PRIVACY.md). The addon reads what the game gives addons, sends no messages and acts for you in nothing; only when you click its Adventurer's Pouch button at a transmogrifier does it write the outfit saved on your phone into a custom set named Adventurer's Pouch and fill it into the transmog window, and it is the game's own save button that applies it (for gold).
