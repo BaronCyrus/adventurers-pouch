@@ -2,11 +2,11 @@
 
 [English below](#privacy-policy--adventurers-pouch-and-wowpocket)
 
-生效日期：2026-10-22
+生效日期：2026-10-29
 
 冒险行囊（Adventurer’s Pouch）是个人开发者 BaronCyrus 做的《魔兽世界：无限》非官方手机伴侣 App。它要配合电脑上的 WowPocket 和 WowPocket 装进游戏的插件一起用。这份政策写的是这三样东西会碰到哪些数据、数据放在哪里、怎么删掉。
 
-冒险行囊不在 Google Play 上，安装包（APK）由作者直接发，有两个版本：海外版经你自己的 Google Drive 把角色数据传到手机，国内版经你自己的坚果云传。电脑上的 WowPocket 两种都能用，你选哪个就用哪个。
+冒险行囊不在 Google Play 上，安装包（APK）由作者直接发，有两个版本：海外版经你自己的 Google Drive 把角色数据传到手机，国内版经你自己的坚果云传。电脑上的 WowPocket 两种都能用，你选哪个就用哪个。iPhone 上只有国内版，也不在 App Store 上：安装包（ipa）由作者直接发，不带苹果的签名，你用自己的 Apple ID 签名后安装。
 
 **简单说**：你的角色数据只存在四个地方：你自己的电脑、你自己的 Google Drive 或坚果云、你自己的手机。我们没有服务器，收不到也不保存你的任何数据。没有广告，也没有统计分析。
 
@@ -24,11 +24,13 @@
 
 **坚果云的账号和应用密码**（用坚果云时）：应用密码是你在坚果云的“第三方应用管理”里自己生成的，不是你的登录密码。按坚果云的说法，应用密码能碰到你整个坚果云；WowPocket 只读写其中的 WowPocket 文件夹，手机 App 读它，只往里写幻化方案那一个文件，别的文件都不碰。
 - 电脑上：坚果云账号和应用密码存在 WowPocket 数据文件夹里单独的一个文件里，只有你本人的系统账号能读。
-- 手机上：存在 App 自己的存储里，别的 App 读不到；设置里只显示账号，不再显示应用密码。
+- 手机上：存在 App 自己的存储里，别的 App 读不到，也不进手机的系统备份（见下面的“系统备份和换机”）；设置里只显示账号，不再显示应用密码。
 
 **设置和天赋方案**：App 的语言、你在天赋模拟器里保存的方案，只存在手机上。
 
 **幻化方案**：你在 App 幻化页保存的方案（哪个角色，每个部位换成哪种外观的编号，什么时候存的）存在手机上，同时写进你选的地方：Google Drive 里上面说的那个隐藏文件夹，或坚果云的 WowPocket 文件夹，文件叫 `wp-plans.json`。电脑上的 WowPocket 把它取下来，写进游戏里插件的文件夹；你在游戏的幻化师那里点插件的按钮，它才填进游戏的幻化窗口。
+
+**系统备份和换机**：冒险行囊在手机上存的东西（设置、天赋和幻化方案、坚果云的账号和应用密码、角色数据、下载的游戏文件）都不进手机的系统备份：安卓上不进谷歌的备份，也不跟着系统的换机迁移到新手机；iPhone 上不进 iCloud 云备份。iPhone 系统给 App 的设置文件里只有 Unity 引擎自己生成的三个随机编号，会跟着备份，不含你的任何信息。手机厂商自己的备份和换机工具认不认安卓的这个设置，我们核实不了。0.33.1 以前的安卓版没有关掉系统备份，开着谷歌备份的手机上，谷歌那边可能还留着一份以前的。换手机以后在 App 里重新登录、同步一次，角色数据就回来了；天赋方案和幻化页存的方案要重新存。
 
 **打赏**：打不打赏，App 的功能都一样。
 - 国内版：用微信或支付宝扫作者的码，付款在微信或支付宝里完成，冒险行囊不经手。微信、支付宝会按它们自己的规矩告诉作者谁付了多少（比如微信昵称）。
@@ -49,6 +51,8 @@
 
 - **Google**：用 Google Drive 时，Google Drive 存你的角色数据，Google Play 服务负责授权。这些服务适用 [Google 隐私权政策](https://policies.google.com/privacy)。
 - **坚果云**：用坚果云时，你的坚果云存你的角色数据，适用坚果云的隐私政策。
+- **Apple**：iPhone 的安装包用你自己的 Apple ID 签名，在 Apple 和你选的签名工具那里完成，冒险行囊碰不到你的 Apple ID；这一步适用 Apple 和签名工具各自的隐私政策。
+- **暴雪的下载服务器**：手机要画一个角色的 3D 人物和装备时，冒险行囊从暴雪的下载服务器（国内版先从网易为暴雪运营的国服下载服务器）下载这个角色要的游戏文件，存在手机上，下次不再下载。请求里只有要哪个文件，没有你的角色、账号或任何个人信息；暴雪（或网易）会看到你的 IP 地址和下载了哪些文件，适用它们各自的隐私政策。
 - **微信、支付宝**：国内版和海外版扫码的打赏在它们那里完成，适用它们各自的隐私政策。
 - **Ko-fi**：海外版在 Ko-fi 上的打赏在那里完成，适用 Ko-fi 的隐私政策。
 - **GitHub**：在 App 里点“在手机上打开下载页”或“隐私政策”，会用浏览器打开 GitHub 上的页面，那里适用 GitHub 的隐私声明。在 WowPocket 窗口里点“检查更新”，WowPocket 会连 GitHub（api.github.com 和它放下载文件的服务器）查最新的版本号，你点了更新才下载新版本的安装包；GitHub 会看到你的 IP 地址、WowPocket 的版本号和下载的是哪个系统的安装包，适用 GitHub 的隐私声明。不点就不连。
@@ -66,7 +70,7 @@
 
 ## 安全
 
-和谷歌、坚果云之间的通信全部走加密连接（HTTPS）。谷歌那边申请的权限只够碰那一个隐藏文件夹；坚果云的应用密码按坚果云的说法能碰整个坚果云，所以我们只在你自己的设备上存它，用完可以随时作废。授权凭据和应用密码只存在你自己的设备上。
+和谷歌、坚果云、暴雪的下载服务器之间的通信全部走加密连接（HTTPS）。谷歌那边申请的权限只够碰那一个隐藏文件夹；坚果云的应用密码按坚果云的说法能碰整个坚果云，所以我们只在你自己的设备上存它，用完可以随时作废。授权凭据和应用密码只存在你自己的设备上，不进系统备份。
 
 ## 儿童
 
@@ -88,11 +92,11 @@ codiee.zane@gmail.com
 
 # Privacy policy · Adventurer’s Pouch and WowPocket
 
-Effective: 22 October 2026
+Effective: 29 October 2026
 
 Adventurer’s Pouch is an unofficial companion app for World of Warcraft: Infinite, made by an individual developer, BaronCyrus. It works with WowPocket on your computer and the addon WowPocket installs in the game. This policy says what data these three touch, where that data is kept and how to delete it.
 
-Adventurer’s Pouch is not on Google Play: its author hands out the APK directly, in two versions. The international version carries your character data to the phone through your own Google Drive; the version for China carries it through your own Jianguoyun (坚果云). WowPocket on your computer works with either; you pick one.
+Adventurer’s Pouch is not on Google Play: its author hands out the APK directly, in two versions. The international version carries your character data to the phone through your own Google Drive; the version for China carries it through your own Jianguoyun (坚果云). WowPocket on your computer works with either; you pick one. On the iPhone there is the version for China alone, and it is not on the App Store either: its author hands out the ipa directly, without Apple’s signature, and you sign it with your own Apple ID to install it.
 
 **In short**: your character data is kept in only four places: your own computer, your own Google Drive or Jianguoyun, and your own phone. We have no server, so we neither receive nor keep any of your data. There are no ads and no analytics.
 
@@ -110,11 +114,13 @@ The phone app then downloads the file to your phone to show you your characters.
 
 **Your Jianguoyun account and app password** (with Jianguoyun): the app password is one you make yourself under Third-party App Management in Jianguoyun; it is not your login password. As Jianguoyun puts it, an app password reaches your whole Jianguoyun; WowPocket reads and writes only its WowPocket folder there, and the phone app reads it and writes only the one file of transmog outfits into it.
 - On your computer: the account and app password are kept in a file of their own in WowPocket’s data folder, readable only by your own user account.
-- On your phone: they are kept in the app’s own storage, which other apps cannot read; the settings show the account but never the app password again.
+- On your phone: they are kept in the app’s own storage, which other apps cannot read and the phone’s backups leave out (see “Backups and moving to a new phone” below); the settings show the account but never the app password again.
 
 **Settings and talent plans**: the app’s language and the plans you save in the talent simulator are kept only on your phone.
 
 **Transmog outfits**: the outfits you save on the app’s Transmog page (which character, the appearance number for each slot, when it was saved) are kept on your phone and written to the place you picked as well: the hidden folder of your Google Drive described above, or the WowPocket folder of your Jianguoyun, in a file named `wp-plans.json`. WowPocket on your computer fetches it and writes it into the addon’s folder in the game; only when you press the addon’s button at a transmogrifier does it fill the outfit into the game’s transmog window.
+
+**Backups and moving to a new phone**: nothing Adventurer’s Pouch keeps on your phone (settings, talent plans and transmog outfits, the Jianguoyun account and app password, character data, downloaded game files) goes into the phone’s backups: on Android, not into Google’s backup, nor across in the system’s transfer to a new phone; on an iPhone, not into iCloud Backup. The settings file the iPhone keeps for the app holds only three random numbers Unity’s engine makes for itself, which are backed up and hold nothing of you. Whether phone makers’ own backup and transfer tools honour this setting on Android, we cannot verify. Versions of the Android app before 0.33.1 left backup on, so on a phone with Google’s backup on, Google may still hold an earlier backup. On a new phone, sign in again in the app and sync once, and your character data is back; talent plans and the outfits saved on the Transmog page have to be saved again.
 
 **Tips**: the app works the same whether or not you tip.
 - Version for China: you scan the author’s code with WeChat or Alipay, and the payment is made in WeChat or Alipay, never through the app. WeChat and Alipay tell the author who paid how much (a WeChat nickname, say) under their own rules.
@@ -135,6 +141,8 @@ Adventurer’s Pouch’s and WowPocket’s use and transfer to any other app of 
 
 - **Google**: with Google Drive, Google Drive keeps your character data and Google Play services handles the sign-in. The [Google Privacy Policy](https://policies.google.com/privacy) applies to these services.
 - **Jianguoyun**: with Jianguoyun, your Jianguoyun keeps your character data, and Jianguoyun’s privacy policy applies.
+- **Apple**: the iPhone package is signed with your own Apple ID, through Apple and the signing tool you choose; Adventurer’s Pouch never sees your Apple ID, and Apple’s and the signing tool’s own privacy policies apply to that step.
+- **Blizzard’s download servers**: to draw a character’s 3D figure and gear, the phone app downloads the game files that character needs from Blizzard’s download servers (the version for China first from the download server NetEase runs for Blizzard in China) and keeps them on the phone, so they are not downloaded again. A request names only the file it asks for, with nothing of your characters, your accounts or you; Blizzard (or NetEase) sees your IP address and which files were downloaded, and their own privacy policies apply.
 - **WeChat, Alipay**: tips scanned in the version for China or the international version are made in them, and their own privacy policies apply.
 - **Ko-fi**: tips on Ko-fi from the international version are made there, and Ko-fi’s privacy policy applies.
 - **GitHub**: “Open the download page” or “Privacy policy” in the app opens a page on GitHub in your browser, where GitHub’s privacy statement applies. “Check for updates” in the WowPocket window has WowPocket ask GitHub (api.github.com and the servers its downloads come from) for the latest version, and download the new version’s package only when you choose to update; GitHub sees your IP address, the WowPocket version and which system’s package is downloaded, and GitHub’s privacy statement applies. Nothing is asked unless you press it.
@@ -152,7 +160,7 @@ Adventurer’s Pouch’s and WowPocket’s use and transfer to any other app of 
 
 ## Security
 
-All traffic with Google and Jianguoyun goes over encrypted connections (HTTPS). The Google permission requested reaches that one hidden folder and nothing else; a Jianguoyun app password reaches your whole Jianguoyun, as Jianguoyun puts it, so it is kept only on your own devices and can be revoked at any time. Sign-in tokens and app passwords are kept only on your own devices.
+All traffic with Google, Jianguoyun and Blizzard’s download servers goes over encrypted connections (HTTPS). The Google permission requested reaches that one hidden folder and nothing else; a Jianguoyun app password reaches your whole Jianguoyun, as Jianguoyun puts it, so it is kept only on your own devices and can be revoked at any time. Sign-in tokens and app passwords are kept only on your own devices, out of their backups.
 
 ## Children
 
