@@ -6,7 +6,7 @@
 
 **非官方工具，与暴雪娱乐无关。** 《魔兽世界》是暴雪娱乐的商标。
 
-手机上的冒险行囊不上 Google Play，安装包（APK）由作者直接发：国内玩家进 QQ 群 **1033497104**，海外玩家进 Discord 服务器 https://discord.gg/CPKjbhHGW4 。有问题、有想法也在这两处说。登录谷歌对所有谷歌账号开放。
+手机上的冒险行囊不上 Google Play，安装包（APK）由作者直接发：国内玩家进 QQ 群 **1033497104**，海外玩家进 Discord 服务器 https://discord.gg/CPKjbhHGW4 。有问题、有想法也在这两处说。登录谷歌对所有谷歌账号开放。iPhone 上只有国内版：安装包（ipa）也在 QQ 群里，要用你自己的 Apple ID 签名后安装，步骤见 [iPhone 版安装教程](IPHONE.md)。
 
 ## 下载
 
@@ -46,7 +46,7 @@ Adventurer’s Pouch is a fan-made phone companion for World of Warcraft: Infini
 
 **Unofficial; not affiliated with Blizzard Entertainment.** World of Warcraft is a trademark of Blizzard Entertainment.
 
-Adventurer’s Pouch is not on Google Play: its author hands out the APK directly, on the Discord server https://discord.gg/CPKjbhHGW4 (or in the QQ group **1033497104** for players in China). Ask questions and share ideas there too. Signing in to Google is open to every Google account.
+Adventurer’s Pouch is not on Google Play: its author hands out the APK directly, on the Discord server https://discord.gg/CPKjbhHGW4 (or in the QQ group **1033497104** for players in China). Ask questions and share ideas there too. Signing in to Google is open to every Google account. On the iPhone there is the version for China alone: its ipa is in the QQ group too, and you sign it with your own Apple ID to install it; see the [iPhone install guide](IPHONE.md) (in Chinese).
 
 ## Download
 
