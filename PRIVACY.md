@@ -2,7 +2,7 @@
 
 [English below](#privacy-policy--adventurers-pouch-and-wowpocket)
 
-生效日期：2026-10-29
+生效日期：2026-11-05
 
 冒险行囊（Adventurer’s Pouch）是个人开发者 BaronCyrus 做的《魔兽世界：无限》非官方手机伴侣 App。它要配合电脑上的 WowPocket 和 WowPocket 装进游戏的插件一起用。这份政策写的是这三样东西会碰到哪些数据、数据放在哪里、怎么删掉。
 
@@ -29,6 +29,10 @@
 **设置和天赋方案**：App 的语言、你在天赋模拟器里保存的方案，只存在手机上。
 
 **幻化方案**：你在 App 幻化页保存的方案（哪个角色，每个部位换成哪种外观的编号，什么时候存的）存在手机上，同时写进你选的地方：Google Drive 里上面说的那个隐藏文件夹，或坚果云的 WowPocket 文件夹，文件叫 `wp-plans.json`。电脑上的 WowPocket 把它取下来，写进游戏里插件的文件夹；你在游戏的幻化师那里点插件的按钮，它才填进游戏的幻化窗口。
+
+**任务朗读和亡灵显示骨头**（电脑上的 WowPocket 0.16.0 起，都是你自己打开才有）：
+- 朗读任务：插件用游戏自带的朗读功能、你电脑系统自带的声音念任务和 NPC 对话，声音在你自己的电脑上合成和播放，不联网，我们不录也不存。WowPocket 读你电脑上的声音名单给你挑、试听，你选的声音名字和语速存在 WowPocket 的数据文件夹里，也写进游戏里插件的文件夹；插件把游戏列出的声音名单和上次朗读的情况记在你电脑上的插件存档里（`WowPocketDevice`），这部分不上传。
+- 亡灵显示骨头（只对国服的游戏）：WowPocket 在游戏自己的设置文件 `WTF/Config.wtf` 里加一行 `SET overrideArchive "0"`，关掉开关就删掉这一行；它还读这个文件里的游戏地区和文字语言。这些都只在你的电脑上。
 
 **系统备份和换机**：冒险行囊在手机上存的东西（设置、天赋和幻化方案、坚果云的账号和应用密码、角色数据、下载的游戏文件）都不进手机的系统备份：安卓上不进谷歌的备份，也不跟着系统的换机迁移到新手机；iPhone 上不进 iCloud 云备份。iPhone 系统给 App 的设置文件里只有 Unity 引擎自己生成的三个随机编号，会跟着备份，不含你的任何信息。手机厂商自己的备份和换机工具认不认安卓的这个设置，我们核实不了。0.33.1 以前的安卓版没有关掉系统备份，开着谷歌备份的手机上，谷歌那边可能还留着一份以前的。换手机以后在 App 里重新登录、同步一次，角色数据就回来了；天赋方案和幻化页存的方案要重新存。
 
@@ -66,7 +70,7 @@
 - **撤销谷歌授权**：在 [Google 账号的第三方关联](https://myaccount.google.com/connections) 里移除 WowPocket。撤销以后电脑和手机都取不到云盘里的数据了。
 - **坚果云**：删掉坚果云里的 WowPocket 文件夹；只想删幻化方案的话，删其中的 `wp-plans.json`。要让应用密码失效，在坚果云的“第三方应用管理”里把它删掉。
 - **电脑**：在 WowPocket 窗口里点“退出登录”或“断开坚果云”，保存的授权凭据或应用密码就删掉了。要删得一点不剩，删掉 WowPocket 的数据文件夹：Mac 上是 `~/Library/Application Support/WowPocket`，Windows 上是 `%APPDATA%\WowPocket`。
-- **插件**：删掉游戏目录 `Interface/AddOns` 下的 `WowPocket` 文件夹。插件的存档是游戏 `WTF/Account/<你的账号>/SavedVariables` 下的 `WowPocket.lua`。
+- **插件**：删掉游戏目录 `Interface/AddOns` 下的 `WowPocket` 文件夹。插件的存档是游戏 `WTF/Account/<你的账号>/SavedVariables` 下的 `WowPocket.lua`。亡灵显示骨头加的那一行，在 WowPocket 窗口里关掉开关就删掉了，也可以在游戏关着时自己从 `WTF/Config.wtf` 里删。
 
 ## 安全
 
@@ -92,7 +96,7 @@ codiee.zane@gmail.com
 
 # Privacy policy · Adventurer’s Pouch and WowPocket
 
-Effective: 29 October 2026
+Effective: 5 November 2026
 
 Adventurer’s Pouch is an unofficial companion app for World of Warcraft: Infinite, made by an individual developer, BaronCyrus. It works with WowPocket on your computer and the addon WowPocket installs in the game. This policy says what data these three touch, where that data is kept and how to delete it.
 
@@ -119,6 +123,10 @@ The phone app then downloads the file to your phone to show you your characters.
 **Settings and talent plans**: the app’s language and the plans you save in the talent simulator are kept only on your phone.
 
 **Transmog outfits**: the outfits you save on the app’s Transmog page (which character, the appearance number for each slot, when it was saved) are kept on your phone and written to the place you picked as well: the hidden folder of your Google Drive described above, or the WowPocket folder of your Jianguoyun, in a file named `wp-plans.json`. WowPocket on your computer fetches it and writes it into the addon’s folder in the game; only when you press the addon’s button at a transmogrifier does it fill the outfit into the game’s transmog window.
+
+**Quest narration and undead bones** (WowPocket 0.16.0 and later on your computer; only when you turn them on):
+- Quest narration: the addon reads quest and NPC text aloud with the game’s own text to speech, in one of your computer’s own voices. The speech is made and played on your computer, nothing goes online, and we neither record nor keep it. WowPocket reads the list of your computer’s voices for you to pick and listen to; the name of the voice you pick and the speed are kept in WowPocket’s data folder and written into the addon’s folder in the game. The addon notes the voices the game lists and how its last reading went in its saved file on your computer (`WowPocketDevice`); this part is not uploaded.
+- Undead show their bones (games of the China region only): WowPocket adds the line `SET overrideArchive "0"` to the game’s own settings file, `WTF/Config.wtf`, and takes it out when you turn the switch off; it also reads the game’s region and text language from that file. All of this stays on your computer.
 
 **Backups and moving to a new phone**: nothing Adventurer’s Pouch keeps on your phone (settings, talent plans and transmog outfits, the Jianguoyun account and app password, character data, downloaded game files) goes into the phone’s backups: on Android, not into Google’s backup, nor across in the system’s transfer to a new phone; on an iPhone, not into iCloud Backup. The settings file the iPhone keeps for the app holds only three random numbers Unity’s engine makes for itself, which are backed up and hold nothing of you. Whether phone makers’ own backup and transfer tools honour this setting on Android, we cannot verify. Versions of the Android app before 0.33.1 left backup on, so on a phone with Google’s backup on, Google may still hold an earlier backup. On a new phone, sign in again in the app and sync once, and your character data is back; talent plans and the outfits saved on the Transmog page have to be saved again.
 
@@ -156,7 +164,7 @@ Adventurer’s Pouch’s and WowPocket’s use and transfer to any other app of 
 - **Withdrawing Google access**: remove WowPocket under [your Google Account’s third-party connections](https://myaccount.google.com/connections). After that, neither your computer nor your phone can reach the data in your Drive.
 - **Jianguoyun**: delete the WowPocket folder in your Jianguoyun; to delete just the transmog outfits, delete `wp-plans.json` in it. To make an app password stop working, delete it under Third-party App Management in Jianguoyun.
 - **Computer**: Sign out or Disconnect Jianguoyun in the WowPocket window deletes the kept sign-in token or app password. To delete everything, delete WowPocket’s data folder: `~/Library/Application Support/WowPocket` on a Mac, `%APPDATA%\WowPocket` on Windows.
-- **Addon**: delete the `WowPocket` folder under `Interface/AddOns` in your game folder. Its saved file is `WowPocket.lua` under `WTF/Account/<your account>/SavedVariables` in the game folder.
+- **Addon**: delete the `WowPocket` folder under `Interface/AddOns` in your game folder. Its saved file is `WowPocket.lua` under `WTF/Account/<your account>/SavedVariables` in the game folder. The line added for the undead’s bones goes when you turn the switch off in WowPocket’s window; you can also delete it from `WTF/Config.wtf` yourself while the game is closed.
 
 ## Security
 
